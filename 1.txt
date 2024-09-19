@@ -1,0 +1,61 @@
+1
+int age =25;
+  print('Значение переменной age =${age};');
+2
+double height = 1.75;
+  print('Значение переменной height =${height};');
+3
+  String name = "ДПК";
+  print('Значение переменной name =${name};');
+4
+bool isStudent = true;
+  print('Значение переменной isStudent =${isStudent};');
+5
+List<int> numbers = [1, 2, 3, 4, 5];
+  print('Значение переменной numbers =${numbers};');
+6
+Map<String, int> scores = {"User1": 95, "User2": 88};
+  print('Значение переменной scores =${scores};');
+
+7
+Set<int> uniqueNambers = {1, 2, 3, 4, 5};
+  print('Значение переменной uniqueNambers =${uniqueNambers};');
+8
+ Runes emoji = Runes('\u{1F600}');
+  print('Значение переменной emoji =${String.fromCharCodes(emoji)};');
+9
+Symbol symbol = #mySymbol;
+  print('Значение переменной emoji =${symbol};');
+10
+dynamic anything = "ДПК";
+  print('Значение переменной anything =${anything};');
+11
+dynamic message = "ДПК";
+  print('Значение переменной message =${message};');
+12
+final pi = 3.14;
+  print('Значение переменной pi =${pi};');
+13
+const gravity = 9.8;
+  print('Значение переменной gravity = ${gravity}');
+14
+  DateTime now = DateTime.now();
+  print('Значение переменной now = ${now}');
+15
+Duration duration = Duration(minutes: 5);
+  print('Значение переменной duration = ${duration}');
+16
+BigInt bigNamber = BigInt.parse('12345678901234567890');
+  print('Значение переменной bigNamber = ${bigNamber};');
+17
+num number = 10.5;
+  print('Значение переменной number = ${number};');
+18
+  StringBuffer buffer = StringBuffer();
+  buffer.write("Hello ");
+  buffer.write("Dart");
+  
+  print('Значение переменной number = ${buffer.toString()}');
+19
+Uri url = Uri.parse("https://politehdon.ru/");
+  print('Значение переменной url = ${url}');
